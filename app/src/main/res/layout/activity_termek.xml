@@ -10,7 +10,7 @@
         android:id="@+id/nevInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Termék neve"
+        android:hint="Termék név"
         android:inputType="text"
         android:minHeight="48dp" />
 
@@ -39,14 +39,20 @@
         android:minHeight="48dp" />
 
     <Button
-        android:id="@+id/hozzaadasButton"
+        android:id="@+id/modositasButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hozzáadás" />
+        android:text="Módosítás" />
 
     <Button
-        android:id="@+id/listazasButton"
+        android:id="@+id/torlesButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Listám megtekintése" />
+        android:text="Törlés" />
+
+    <Button
+        android:id="@+id/visszaButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mégse" />
 </LinearLayout>
